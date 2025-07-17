@@ -81,16 +81,6 @@ include 'koneksi.php';
                 </select>
             </div>
             <div class="col-md-4 d-flex gap-2">
-                <button type="submit" class="btn btn-success">Tampilkan</button>
-                <?php if (!empty($_GET['bulan']) && !empty($_GET['tahun'])): ?>
-                    <a href="cetak_laporan.php?bulan=<?= $_GET['bulan'] ?>&tahun=<?= $_GET['tahun'] ?>"
-                        target="_blank"
-                        class="btn btn-outline-primary">
-                        🖨 Cetak
-                    </a>
-                <?php endif; ?>
-
-
             </div>
         </form>
 
@@ -147,10 +137,12 @@ include 'koneksi.php';
         </div>
 
         <div class="text-center mt-4">
-            <a href="index.php" class="btn btn-secondary"><i class="bi bi-arrow-left"></i> Kembali ke Menu</a>
         </div>
     </div>
 
+    <script>
+        window.print()
+    </script>
 </body>
 
 </html>
