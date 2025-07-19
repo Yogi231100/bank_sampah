@@ -261,6 +261,7 @@ if (!isset($_SESSION['admin'])) {
                 <li><a href="tambah_setoran.php"><i class="bi bi-arrow-down-circle-fill"></i>Tambah Setoran</a></li>
                 <li><a href="laporan.php"><i class="bi bi-bar-chart-line-fill"></i>Laporan Setoran</a></li>
                 <li><a href="penjualan.php"><i class="bi bi-cash-coin"></i>Penjualan Sampah</a></li>
+                <li><a href="laporan_penjualan.php"><i class="bi bi-file-earmark-bar-graph"></i>Laporan Penjualan</a></li>
             </ul>
         </nav>
 
